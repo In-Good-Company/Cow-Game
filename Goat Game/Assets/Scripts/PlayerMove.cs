@@ -2,6 +2,7 @@
 using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.AI;
+using UnityEngine.EventSystems;
 
 public class PlayerMove : MonoBehaviour
 {
@@ -25,6 +26,9 @@ public class PlayerMove : MonoBehaviour
         {
             Ray clickRay = Camera.main.ScreenPointToRay(Input.mousePosition);
             RaycastHit hitInfo;
+
+            if (EventSystem.current.IsPointerOverGameObject())
+                return;
 
             if (Physics.Raycast(clickRay, out hitInfo, 100, ClickableWorld))
             {
