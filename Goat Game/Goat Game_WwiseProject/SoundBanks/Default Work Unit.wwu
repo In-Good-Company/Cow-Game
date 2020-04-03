@@ -1,6 +1,25 @@
 <?xml version="1.0" encoding="utf-8"?>
 <WwiseDocument Type="WorkUnit" ID="{A2DDA6FF-59FD-46B3-BC97-499ADCD88882}" SchemaVersion="97">
 	<SoundBanks>
-		<WorkUnit Name="Default Work Unit" ID="{A2DDA6FF-59FD-46B3-BC97-499ADCD88882}" PersistMode="Standalone"/>
+		<WorkUnit Name="Default Work Unit" ID="{A2DDA6FF-59FD-46B3-BC97-499ADCD88882}" PersistMode="Standalone">
+			<ChildrenList>
+				<SoundBank Name="Foley" ID="{736EA646-4631-4FE5-A034-F6E259025CB3}">
+					<ObjectInclusionList>
+						<ObjectRef Name="Footsteps" ID="{DE750362-337B-487D-8320-C3FA029D51A4}" WorkUnitID="{5E67C2A8-4BDE-4BEA-867D-634CE68E641B}" Origin="Manual" Filter="7"/>
+					</ObjectInclusionList>
+					<ObjectExclusionList/>
+					<GameSyncExclusionList/>
+				</SoundBank>
+				<SoundBank Name="UI_Sounds" ID="{4DD700AD-F813-4D9A-A972-BED87EEE7195}">
+					<ObjectInclusionList>
+						<ObjectRef Name="Button_B" ID="{C3E36265-79D7-43F6-B27E-C2A35F0E6F7A}" WorkUnitID="{5E67C2A8-4BDE-4BEA-867D-634CE68E641B}" Origin="Manual" Filter="7"/>
+						<ObjectRef Name="Button_A" ID="{83CFA12F-7B2F-47CC-8687-06793D0C3B55}" WorkUnitID="{5E67C2A8-4BDE-4BEA-867D-634CE68E641B}" Origin="Manual" Filter="7"/>
+						<ObjectRef Name="Button_C" ID="{0C80B7B0-7098-4CA8-B2BD-B97876A9B81B}" WorkUnitID="{5E67C2A8-4BDE-4BEA-867D-634CE68E641B}" Origin="Manual" Filter="7"/>
+					</ObjectInclusionList>
+					<ObjectExclusionList/>
+					<GameSyncExclusionList/>
+				</SoundBank>
+			</ChildrenList>
+		</WorkUnit>
 	</SoundBanks>
 </WwiseDocument>

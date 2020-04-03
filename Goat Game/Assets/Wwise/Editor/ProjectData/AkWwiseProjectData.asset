@@ -12,14 +12,208 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: fd60a85e6fdeba74194fc9cfe4ee874c, type: 3}
   m_Name: AkWwiseProjectData
   m_EditorClassIdentifier: 
-  AcousticTextureWwu: []
-  AuxBusWwu: []
-  BankWwu: []
-  EventWwu: []
-  RtpcWwu: []
-  StateWwu: []
-  SwitchWwu: []
-  TriggerWwu: []
-  ExpandedItems: []
+  AcousticTextureWwu:
+  - PhysicalPath: Virtual Acoustics\Default Work Unit.wwu
+    ParentPath: Default Work Unit
+    guid: e7db493ea7e9a74490b38c2c8fc17490
+    GuidInternal: 
+    m_lastTime: -8586160716944514652
+    List: []
+  AuxBusWwu:
+  - PhysicalPath: Master-Mixer Hierarchy\Default Work Unit.wwu
+    ParentPath: Default Work Unit
+    guid: 150f00690388734485dd67c1cc5aca40
+    GuidInternal: 
+    m_lastTime: -8586160716944579534
+    List:
+    - name: Master Audio Bus
+      guid: d8a41415a61d2a41a17e75ca0c2149f3
+      id: 3803692087
+      PathAndIcons:
+      - ElementName: Default Work Unit
+        ObjectType: 12
+      - ElementName: Master Audio Bus
+        ObjectType: 2
+      Path: Default Work Unit\Master Audio Bus
+  BankWwu:
+  - PhysicalPath: SoundBanks\Default Work Unit.wwu
+    ParentPath: Default Work Unit
+    guid: ffa6dda2fd59b346bc97499adcd88882
+    GuidInternal: 
+    m_lastTime: -8586157328691452667
+    List:
+    - name: Foley
+      guid: 46a66e733146e54fa034f6e259025cb3
+      id: 247557814
+      PathAndIcons:
+      - ElementName: Default Work Unit
+        ObjectType: 12
+      - ElementName: Foley
+        ObjectType: 7
+      Path: Default Work Unit\Foley
+    - name: UI_Sounds
+      guid: ad00d74d13f89a4da972bed87eee7195
+      id: 905868302
+      PathAndIcons:
+      - ElementName: Default Work Unit
+        ObjectType: 12
+      - ElementName: UI_Sounds
+        ObjectType: 7
+      Path: Default Work Unit\UI_Sounds
+  EventWwu:
+  - PhysicalPath: Events\Default Work Unit.wwu
+    ParentPath: Default Work Unit
+    guid: a8c2675ede4bea4b867d634ce68e641b
+    GuidInternal: 
+    m_lastTime: -8586157328916784038
+    List:
+    - name: Button_A
+      guid: 2fa1cf832f7bcc47868706793d0c3b55
+      id: 2661066193
+      PathAndIcons:
+      - ElementName: Default Work Unit
+        ObjectType: 12
+      - ElementName: UI Sounds
+        ObjectType: 4
+      - ElementName: Button_A
+        ObjectType: 3
+      Path: Default Work Unit\UI Sounds\Button_A
+      maxAttenuation: 0
+      maxDuration: -1
+      minDuration: -1
+    - name: Button_B
+      guid: 6562e3c3d779f643b27ec2a35f0e6f7a
+      id: 2661066194
+      PathAndIcons:
+      - ElementName: Default Work Unit
+        ObjectType: 12
+      - ElementName: UI Sounds
+        ObjectType: 4
+      - ElementName: Button_B
+        ObjectType: 3
+      Path: Default Work Unit\UI Sounds\Button_B
+      maxAttenuation: 0
+      maxDuration: -1
+      minDuration: -1
+    - name: Button_C
+      guid: b0b7800c9870a84cb2bdb97876a9b81b
+      id: 2661066195
+      PathAndIcons:
+      - ElementName: Default Work Unit
+        ObjectType: 12
+      - ElementName: UI Sounds
+        ObjectType: 4
+      - ElementName: Button_C
+        ObjectType: 3
+      Path: Default Work Unit\UI Sounds\Button_C
+      maxAttenuation: 0
+      maxDuration: -1
+      minDuration: -1
+    - name: Foley
+      guid: 3496821914e7914fa4b61786f23b33da
+      id: 247557814
+      PathAndIcons:
+      - ElementName: Default Work Unit
+        ObjectType: 12
+      - ElementName: Foley
+        ObjectType: 4
+      - ElementName: Foley
+        ObjectType: 3
+      Path: Default Work Unit\Foley\Foley
+      maxAttenuation: 0
+      maxDuration: -1
+      minDuration: -1
+    - name: Footsteps
+      guid: 620375de7b337d488320c3fa029d51a4
+      id: 2385628198
+      PathAndIcons:
+      - ElementName: Default Work Unit
+        ObjectType: 12
+      - ElementName: Foley
+        ObjectType: 4
+      - ElementName: Footsteps
+        ObjectType: 3
+      Path: Default Work Unit\Foley\Footsteps
+      maxAttenuation: 0
+      maxDuration: -1
+      minDuration: -1
+    - name: UI Sounds
+      guid: df3880a0f520154b875052b2e8777440
+      id: 937959045
+      PathAndIcons:
+      - ElementName: Default Work Unit
+        ObjectType: 12
+      - ElementName: UI Sounds
+        ObjectType: 4
+      - ElementName: UI Sounds
+        ObjectType: 3
+      Path: Default Work Unit\UI Sounds\UI Sounds
+      maxAttenuation: 0
+      maxDuration: -1
+      minDuration: -1
+  RtpcWwu:
+  - PhysicalPath: Game Parameters\Default Work Unit.wwu
+    ParentPath: Default Work Unit
+    guid: 96e246a659b2694fa99967670493c22a
+    GuidInternal: 
+    m_lastTime: -8586160716944609478
+    List: []
+  StateWwu:
+  - PhysicalPath: States\Default Work Unit.wwu
+    ParentPath: Default Work Unit
+    guid: 331057dbf15c41448808833a9afb854f
+    GuidInternal: 
+    m_lastTime: -8586160716944529630
+    List: []
+  SwitchWwu:
+  - PhysicalPath: Switches\Default Work Unit.wwu
+    ParentPath: Default Work Unit
+    guid: 2ba3760bcbc1c94993fb668886875917
+    GuidInternal: 
+    m_lastTime: -8586159932023971250
+    List:
+    - name: Footsteps
+      guid: 4f5a94c82006564d96dc23dbd5038c9b
+      id: 2385628198
+      PathAndIcons:
+      - ElementName: Default Work Unit
+        ObjectType: 12
+      - ElementName: Footsteps
+        ObjectType: 11
+      Path: Default Work Unit\Footsteps
+      values:
+      - name: Footsteps_Grass
+        guid: e6d5da5d06c3a442b84e17daf154057d
+        id: 7365553
+        PathAndIcons:
+        - ElementName: Footsteps_Grass
+          ObjectType: 10
+      - name: Footsteps_Weeds
+        guid: da8346d4894d254b8c0afe99adade46a
+        id: 2842191437
+        PathAndIcons:
+        - ElementName: Footsteps_Weeds
+          ObjectType: 10
+      ValueGuids: []
+      ValueIcons: []
+      valuesInternal: []
+  TriggerWwu:
+  - PhysicalPath: Triggers\Default Work Unit.wwu
+    ParentPath: Default Work Unit
+    guid: 7a971405cbcccd448b946585543098bf
+    GuidInternal: 
+    m_lastTime: -8586160716944519647
+    List: []
+  ExpandedItems:
+  - /Goat Game_WwiseProject
+  - /Goat Game_WwiseProject/Events
+  - /Goat Game_WwiseProject/Events/Default Work Unit
+  - /Goat Game_WwiseProject/Events/Default Work Unit/Foley
+  - /Goat Game_WwiseProject/Events/Default Work Unit/UI Sounds
+  - /Goat Game_WwiseProject/SoundBanks
+  - /Goat Game_WwiseProject/SoundBanks/Default Work Unit
+  - /Goat Game_WwiseProject/Switches
+  - /Goat Game_WwiseProject/Switches/Default Work Unit
+  - /Goat Game_WwiseProject/Switches/Default Work Unit/Footsteps
   autoPopulateEnabled: 1
   CurrentPluginConfig: 
