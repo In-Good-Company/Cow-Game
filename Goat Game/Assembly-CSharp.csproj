@@ -62,10 +62,13 @@
     </Reference>
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="Assets\Scripts\cowCall.cs" />
+    <Compile Include="Assets\Scripts\AI_Cow_Controller.cs" />
+    <Compile Include="Assets\Scripts\AI_Cow_wanderTimer.cs" />
     <Compile Include="Assets\Scripts\CowMove.cs" />
+    <Compile Include="Assets\Scripts\grassEating.cs" />
     <Compile Include="Assets\Scripts\PlayerMove.cs" />
     <Compile Include="Assets\Scripts\shout.cs" />
+    <Compile Include="Assets\Scripts\trapSpring.cs" />
     <Compile Include="Assets\Wwise\Deployment\API\Generated\Android\AkAudioAPI_Android.cs" />
     <Compile Include="Assets\Wwise\Deployment\API\Generated\Android\AkCommunicationSettings_Android.cs" />
     <Compile Include="Assets\Wwise\Deployment\API\Generated\Android\AkPlatformInitSettings_Android.cs" />
