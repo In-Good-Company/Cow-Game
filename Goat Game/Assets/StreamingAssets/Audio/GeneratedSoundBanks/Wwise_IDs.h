@@ -17,6 +17,8 @@ namespace AK
         static const AkUniqueID BUTTON_B = 2661066194U;
         static const AkUniqueID BUTTON_C = 2661066195U;
         static const AkUniqueID FOOTSTEPS = 2385628198U;
+        static const AkUniqueID LOCATION_MOVEMENT = 3713975176U;
+        static const AkUniqueID MUSIC = 3991942870U;
     } // namespace EVENTS
 
     namespace SWITCHES
@@ -38,6 +40,7 @@ namespace AK
     {
         static const AkUniqueID INIT = 1355168291U;
         static const AkUniqueID FOLEY = 247557814U;
+        static const AkUniqueID MUSIC = 3991942870U;
         static const AkUniqueID UI_SOUNDS = 905868302U;
     } // namespace BANKS
 

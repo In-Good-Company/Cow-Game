@@ -40,44 +40,111 @@ MonoBehaviour:
     ParentPath: Default Work Unit
     guid: ffa6dda2fd59b346bc97499adcd88882
     GuidInternal: 
-    m_lastTime: -8586157328691452667
+    m_lastTime: -8586153995405695961
+    List: []
+  - PhysicalPath: SoundBanks\Foley.wwu
+    ParentPath: Foley
+    guid: 651089bd40feef45905a6842c55b09fc
+    GuidInternal: 
+    m_lastTime: -8586153995523871455
     List:
     - name: Foley
       guid: 46a66e733146e54fa034f6e259025cb3
       id: 247557814
       PathAndIcons:
-      - ElementName: Default Work Unit
+      - ElementName: Foley
         ObjectType: 12
       - ElementName: Foley
         ObjectType: 7
-      Path: Default Work Unit\Foley
+      Path: Foley\Foley
+  - PhysicalPath: SoundBanks\Music.wwu
+    ParentPath: Music
+    guid: 9a4912d0419f54498f23e29931d114ca
+    GuidInternal: 
+    m_lastTime: -8586153911993193143
+    List:
+    - name: Music
+      guid: 1f717ead34c99645a3caefafaae2a918
+      id: 3991942870
+      PathAndIcons:
+      - ElementName: Music
+        ObjectType: 12
+      - ElementName: Music
+        ObjectType: 7
+      Path: Music\Music
+  - PhysicalPath: SoundBanks\UI_Sounds.wwu
+    ParentPath: UI_Sounds
+    guid: e2ce9274beba73458b026d1c43285380
+    GuidInternal: 
+    m_lastTime: -8586153090753612221
+    List:
     - name: UI_Sounds
       guid: ad00d74d13f89a4da972bed87eee7195
       id: 905868302
       PathAndIcons:
-      - ElementName: Default Work Unit
+      - ElementName: UI_Sounds
         ObjectType: 12
       - ElementName: UI_Sounds
         ObjectType: 7
-      Path: Default Work Unit\UI_Sounds
+      Path: UI_Sounds\UI_Sounds
   EventWwu:
   - PhysicalPath: Events\Default Work Unit.wwu
     ParentPath: Default Work Unit
     guid: a8c2675ede4bea4b867d634ce68e641b
     GuidInternal: 
-    m_lastTime: -8586157328916784038
+    m_lastTime: -8586153996777889469
+    List: []
+  - PhysicalPath: Events\Foley.wwu
+    ParentPath: Foley
+    guid: 325dc0259b97c642a53dde4a7dfff76e
+    GuidInternal: 
+    m_lastTime: -8586153996777649611
+    List:
+    - name: Footsteps
+      guid: 620375de7b337d488320c3fa029d51a4
+      id: 2385628198
+      PathAndIcons:
+      - ElementName: Foley
+        ObjectType: 12
+      - ElementName: Footsteps
+        ObjectType: 3
+      Path: Foley\Footsteps
+      maxAttenuation: 0
+      maxDuration: 0.805179
+      minDuration: 0.513158
+  - PhysicalPath: Events\Music.wwu
+    ParentPath: Music
+    guid: f51afd44a22e914eb383e26e820627ff
+    GuidInternal: 
+    m_lastTime: -8586153914386369810
+    List:
+    - name: Music
+      guid: 894035486c0fd34487605c7ea9c0804c
+      id: 3991942870
+      PathAndIcons:
+      - ElementName: Music
+        ObjectType: 12
+      - ElementName: Music
+        ObjectType: 3
+      Path: Music\Music
+      maxAttenuation: 0
+      maxDuration: 0
+      minDuration: 0
+  - PhysicalPath: Events\UI Sounds.wwu
+    ParentPath: UI Sounds
+    guid: cf41c00e7e14064d97418ccc043fd1ac
+    GuidInternal: 
+    m_lastTime: -8586153091001117009
     List:
     - name: Button_A
       guid: 2fa1cf832f7bcc47868706793d0c3b55
       id: 2661066193
       PathAndIcons:
-      - ElementName: Default Work Unit
-        ObjectType: 12
       - ElementName: UI Sounds
-        ObjectType: 4
+        ObjectType: 12
       - ElementName: Button_A
         ObjectType: 3
-      Path: Default Work Unit\UI Sounds\Button_A
+      Path: UI Sounds\Button_A
       maxAttenuation: 0
       maxDuration: -1
       minDuration: -1
@@ -85,13 +152,11 @@ MonoBehaviour:
       guid: 6562e3c3d779f643b27ec2a35f0e6f7a
       id: 2661066194
       PathAndIcons:
-      - ElementName: Default Work Unit
-        ObjectType: 12
       - ElementName: UI Sounds
-        ObjectType: 4
+        ObjectType: 12
       - ElementName: Button_B
         ObjectType: 3
-      Path: Default Work Unit\UI Sounds\Button_B
+      Path: UI Sounds\Button_B
       maxAttenuation: 0
       maxDuration: -1
       minDuration: -1
@@ -99,55 +164,23 @@ MonoBehaviour:
       guid: b0b7800c9870a84cb2bdb97876a9b81b
       id: 2661066195
       PathAndIcons:
-      - ElementName: Default Work Unit
-        ObjectType: 12
       - ElementName: UI Sounds
-        ObjectType: 4
+        ObjectType: 12
       - ElementName: Button_C
         ObjectType: 3
-      Path: Default Work Unit\UI Sounds\Button_C
+      Path: UI Sounds\Button_C
       maxAttenuation: 0
       maxDuration: -1
       minDuration: -1
-    - name: Foley
-      guid: 3496821914e7914fa4b61786f23b33da
-      id: 247557814
+    - name: Location_Movement
+      guid: 97c4bf41d33d8a43aae06603f400279d
+      id: 3713975176
       PathAndIcons:
-      - ElementName: Default Work Unit
-        ObjectType: 12
-      - ElementName: Foley
-        ObjectType: 4
-      - ElementName: Foley
-        ObjectType: 3
-      Path: Default Work Unit\Foley\Foley
-      maxAttenuation: 0
-      maxDuration: -1
-      minDuration: -1
-    - name: Footsteps
-      guid: 620375de7b337d488320c3fa029d51a4
-      id: 2385628198
-      PathAndIcons:
-      - ElementName: Default Work Unit
-        ObjectType: 12
-      - ElementName: Foley
-        ObjectType: 4
-      - ElementName: Footsteps
-        ObjectType: 3
-      Path: Default Work Unit\Foley\Footsteps
-      maxAttenuation: 0
-      maxDuration: -1
-      minDuration: -1
-    - name: UI Sounds
-      guid: df3880a0f520154b875052b2e8777440
-      id: 937959045
-      PathAndIcons:
-      - ElementName: Default Work Unit
-        ObjectType: 12
       - ElementName: UI Sounds
-        ObjectType: 4
-      - ElementName: UI Sounds
+        ObjectType: 12
+      - ElementName: Location_Movement
         ObjectType: 3
-      Path: Default Work Unit\UI Sounds\UI Sounds
+      Path: UI Sounds\Location_Movement
       maxAttenuation: 0
       maxDuration: -1
       minDuration: -1
@@ -170,17 +203,23 @@ MonoBehaviour:
     ParentPath: Default Work Unit
     guid: 2ba3760bcbc1c94993fb668886875917
     GuidInternal: 
-    m_lastTime: -8586159932023971250
+    m_lastTime: -8586153961532382548
+    List: []
+  - PhysicalPath: Switches\Foley.wwu
+    ParentPath: Foley
+    guid: 185c6f01092fed499bc06d30954f2bfb
+    GuidInternal: 
+    m_lastTime: -8586153961529644015
     List:
     - name: Footsteps
       guid: 4f5a94c82006564d96dc23dbd5038c9b
       id: 2385628198
       PathAndIcons:
-      - ElementName: Default Work Unit
+      - ElementName: Foley
         ObjectType: 12
       - ElementName: Footsteps
         ObjectType: 11
-      Path: Default Work Unit\Footsteps
+      Path: Foley\Footsteps
       values:
       - name: Footsteps_Grass
         guid: e6d5da5d06c3a442b84e17daf154057d
@@ -202,18 +241,12 @@ MonoBehaviour:
     ParentPath: Default Work Unit
     guid: 7a971405cbcccd448b946585543098bf
     GuidInternal: 
-    m_lastTime: -8586160716944519647
+    m_lastTime: -8586153949998780353
     List: []
   ExpandedItems:
   - /Goat Game_WwiseProject
   - /Goat Game_WwiseProject/Events
-  - /Goat Game_WwiseProject/Events/Default Work Unit
-  - /Goat Game_WwiseProject/Events/Default Work Unit/Foley
-  - /Goat Game_WwiseProject/Events/Default Work Unit/UI Sounds
-  - /Goat Game_WwiseProject/SoundBanks
-  - /Goat Game_WwiseProject/SoundBanks/Default Work Unit
-  - /Goat Game_WwiseProject/Switches
-  - /Goat Game_WwiseProject/Switches/Default Work Unit
-  - /Goat Game_WwiseProject/Switches/Default Work Unit/Footsteps
+  - /Goat Game_WwiseProject/Events/Foley
+  - /Goat Game_WwiseProject/Events/UI Sounds
   autoPopulateEnabled: 1
   CurrentPluginConfig: 

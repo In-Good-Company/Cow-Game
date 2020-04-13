@@ -41,7 +41,7 @@ public class PlayerMove : MonoBehaviour
                 navMarker = Instantiate(navMarkerPrefab) as GameObject;
                 navMarker.transform.position = navPoint;
                 markerPlaced = true;
-
+                AkSoundEngine.PostEvent("Location_Movement", gameObject);
                 
             }
         }

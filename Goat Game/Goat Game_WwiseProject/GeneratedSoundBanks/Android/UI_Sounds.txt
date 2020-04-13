@@ -1,10 +1,18 @@
 Event	ID	Name			Wwise Object Path	Notes
-	2661066193	Button_A			\Default Work Unit\UI Sounds\Button_A	
-	2661066194	Button_B			\Default Work Unit\UI Sounds\Button_B	
-	2661066195	Button_C			\Default Work Unit\UI Sounds\Button_C	
+	2661066193	Button_A			\UI Sounds\Button_A	
+	2661066194	Button_B			\UI Sounds\Button_B	
+	2661066195	Button_C			\UI Sounds\Button_C	
+	3713975176	Location_Movement			\UI Sounds\Location_Movement	
 
 In Memory Audio	ID	Name	Audio source file		Wwise Object Path	Notes	Data Size
 	5203518	MG 1_UI Sounds_Start Menu 1_Droplet A1_Batch A	E:\Azeray\Documents\Game Projects\Freelance Initiative\GitHub\Cow-Game\Goat Game\Goat Game_WwiseProject\.cache\Android\SFX\MG 1_UI Sounds_Start Menu 1_Droplet A1_Batch A_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\UI Sounds\Buttons\MG 1_UI Sounds_Start Menu 1_Droplet A1_Batch A		12152
 	13632009	MG 1_UI Sounds_Start Menu 1_Droplet A2_Batch A	E:\Azeray\Documents\Game Projects\Freelance Initiative\GitHub\Cow-Game\Goat Game\Goat Game_WwiseProject\.cache\Android\SFX\MG 1_UI Sounds_Start Menu 1_Droplet A2_Batch A_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\UI Sounds\Buttons\MG 1_UI Sounds_Start Menu 1_Droplet A2_Batch A		12064
+	131107155	MG_Location Movement Selection_B3_Batch A	E:\Azeray\Documents\Game Projects\Freelance Initiative\GitHub\Cow-Game\Goat Game\Goat Game_WwiseProject\.cache\Android\SFX\MG_Location Movement Selection_B3_Batch A_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\UI Sounds\Location Movement\Location Movement\MG_Location Movement Selection_B3_Batch A		264628
+	166974260	MG_Location Movement Selection_B5_Batch A	E:\Azeray\Documents\Game Projects\Freelance Initiative\GitHub\Cow-Game\Goat Game\Goat Game_WwiseProject\.cache\Android\SFX\MG_Location Movement Selection_B5_Batch A_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\UI Sounds\Location Movement\Location Movement\MG_Location Movement Selection_B5_Batch A		264628
+	271124721	MG_Location Movement Selection_B6_Batch A	E:\Azeray\Documents\Game Projects\Freelance Initiative\GitHub\Cow-Game\Goat Game\Goat Game_WwiseProject\.cache\Android\SFX\MG_Location Movement Selection_B6_Batch A_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\UI Sounds\Location Movement\Location Movement\MG_Location Movement Selection_B6_Batch A		264628
 	279443176	MG 1_UI Sounds_Start Menu 1_Button A1_Batch A	E:\Azeray\Documents\Game Projects\Freelance Initiative\GitHub\Cow-Game\Goat Game\Goat Game_WwiseProject\.cache\Android\SFX\MG 1_UI Sounds_Start Menu 1_Button A1_Batch A_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\UI Sounds\Buttons\MG 1_UI Sounds_Start Menu 1_Button A1_Batch A		14688
+	315047779	MG_Location Movement Selection_B1_Batch A	E:\Azeray\Documents\Game Projects\Freelance Initiative\GitHub\Cow-Game\Goat Game\Goat Game_WwiseProject\.cache\Android\SFX\MG_Location Movement Selection_B1_Batch A_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\UI Sounds\Location Movement\Location Movement\MG_Location Movement Selection_B1_Batch A		264628
+	711550338	MG_Location Movement Selection_B2_Batch A	E:\Azeray\Documents\Game Projects\Freelance Initiative\GitHub\Cow-Game\Goat Game\Goat Game_WwiseProject\.cache\Android\SFX\MG_Location Movement Selection_B2_Batch A_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\UI Sounds\Location Movement\Location Movement\MG_Location Movement Selection_B2_Batch A		264628
+	724068951	MG_Location Movement Selection_B4_Batch A	E:\Azeray\Documents\Game Projects\Freelance Initiative\GitHub\Cow-Game\Goat Game\Goat Game_WwiseProject\.cache\Android\SFX\MG_Location Movement Selection_B4_Batch A_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\UI Sounds\Location Movement\Location Movement\MG_Location Movement Selection_B4_Batch A		264628
+	866160312	MG_Location Movement Selection_B7_Batch A	E:\Azeray\Documents\Game Projects\Freelance Initiative\GitHub\Cow-Game\Goat Game\Goat Game_WwiseProject\.cache\Android\SFX\MG_Location Movement Selection_B7_Batch A_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\UI Sounds\Location Movement\Location Movement\MG_Location Movement Selection_B7_Batch A		264628
 

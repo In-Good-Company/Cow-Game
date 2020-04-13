@@ -11,13 +11,13 @@
 									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{E15B4EF8-0B95-40CD-9E74-E6BB39522032}"/>
 								</Reference>
 								<Reference Name="DefaultSwitchOrState">
-									<ObjectRef Name="Footsteps_Weeds" ID="{D44683DA-4D89-4B25-8C0A-FE99ADADE46A}" WorkUnitID="{0B76A32B-C1CB-49C9-93FB-668886875917}"/>
+									<ObjectRef Name="Footsteps_Weeds" ID="{D44683DA-4D89-4B25-8C0A-FE99ADADE46A}" WorkUnitID="{016F5C18-2F09-49ED-9BC0-6D30954F2BFB}"/>
 								</Reference>
 								<Reference Name="OutputBus">
 									<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{69000F15-8803-4473-85DD-67C1CC5ACA40}"/>
 								</Reference>
 								<Reference Name="SwitchGroupOrStateGroup">
-									<ObjectRef Name="Footsteps" ID="{C8945A4F-0620-4D56-96DC-23DBD5038C9B}" WorkUnitID="{0B76A32B-C1CB-49C9-93FB-668886875917}"/>
+									<ObjectRef Name="Footsteps" ID="{C8945A4F-0620-4D56-96DC-23DBD5038C9B}" WorkUnitID="{016F5C18-2F09-49ED-9BC0-6D30954F2BFB}"/>
 								</Reference>
 							</ReferenceList>
 							<ChildrenList>
@@ -535,6 +535,200 @@
 										<ActiveSource Name="MG 1_UI Sounds_Start Menu 1_Droplet A2_Batch A" ID="{BE62ECEE-A927-438D-8CCB-5C8C9AB7B2B1}" Platform="Linked"/>
 									</ActiveSourceList>
 								</Sound>
+							</ChildrenList>
+						</ActorMixer>
+						<ActorMixer Name="Location Movement" ID="{360414DE-9F48-4794-83E2-02071CAD393C}" ShortID="357621489">
+							<ReferenceList>
+								<Reference Name="Conversion">
+									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{E15B4EF8-0B95-40CD-9E74-E6BB39522032}"/>
+								</Reference>
+								<Reference Name="OutputBus">
+									<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{69000F15-8803-4473-85DD-67C1CC5ACA40}"/>
+								</Reference>
+							</ReferenceList>
+							<ChildrenList>
+								<RandomSequenceContainer Name="Location Movement" ID="{A1B6286E-6B04-499D-B5AD-B4E53069A822}" ShortID="1508875">
+									<PropertyList>
+										<Property Name="NormalOrShuffle" Type="int16" Value="0"/>
+										<Property Name="Pitch" Type="int32">
+											<ModifierList>
+												<ModifierInfo>
+													<Modifier Name="" ID="{25EFFAF3-CE47-4B41-860B-E30DF9A7E00C}">
+														<PropertyList>
+															<Property Name="Enabled" Type="bool" Value="True"/>
+															<Property Name="Max" Type="Real64" Value="200"/>
+														</PropertyList>
+													</Modifier>
+												</ModifierInfo>
+											</ModifierList>
+										</Property>
+										<Property Name="RandomAvoidRepeatingCount" Type="int32" Value="3"/>
+									</PropertyList>
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{E15B4EF8-0B95-40CD-9E74-E6BB39522032}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{69000F15-8803-4473-85DD-67C1CC5ACA40}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<Sound Name="MG_Location Movement Selection_B3_Batch A" ID="{B1713B35-9E2C-41A6-A4D9-80811A54B337}" ShortID="439202044">
+											<ReferenceList>
+												<Reference Name="Conversion">
+													<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{E15B4EF8-0B95-40CD-9E74-E6BB39522032}"/>
+												</Reference>
+												<Reference Name="OutputBus">
+													<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{69000F15-8803-4473-85DD-67C1CC5ACA40}"/>
+												</Reference>
+											</ReferenceList>
+											<ChildrenList>
+												<AudioFileSource Name="MG_Location Movement Selection_B3_Batch A" ID="{3201A92E-ACFD-4F83-A5BB-479639F391CF}">
+													<Language>SFX</Language>
+													<AudioFile>MG_Location Movement Selection_B3_Batch A.wav</AudioFile>
+													<MediaIDList>
+														<MediaID ID="131107155"/>
+													</MediaIDList>
+												</AudioFileSource>
+											</ChildrenList>
+											<ActiveSourceList>
+												<ActiveSource Name="MG_Location Movement Selection_B3_Batch A" ID="{3201A92E-ACFD-4F83-A5BB-479639F391CF}" Platform="Linked"/>
+											</ActiveSourceList>
+										</Sound>
+										<Sound Name="MG_Location Movement Selection_B6_Batch A" ID="{FCCDE24C-7E61-4A61-BBA8-AACC9069074D}" ShortID="507060393">
+											<ReferenceList>
+												<Reference Name="Conversion">
+													<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{E15B4EF8-0B95-40CD-9E74-E6BB39522032}"/>
+												</Reference>
+												<Reference Name="OutputBus">
+													<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{69000F15-8803-4473-85DD-67C1CC5ACA40}"/>
+												</Reference>
+											</ReferenceList>
+											<ChildrenList>
+												<AudioFileSource Name="MG_Location Movement Selection_B6_Batch A" ID="{AE3ACFCC-845B-482B-A289-398957C46A70}">
+													<Language>SFX</Language>
+													<AudioFile>MG_Location Movement Selection_B6_Batch A.wav</AudioFile>
+													<MediaIDList>
+														<MediaID ID="271124721"/>
+													</MediaIDList>
+												</AudioFileSource>
+											</ChildrenList>
+											<ActiveSourceList>
+												<ActiveSource Name="MG_Location Movement Selection_B6_Batch A" ID="{AE3ACFCC-845B-482B-A289-398957C46A70}" Platform="Linked"/>
+											</ActiveSourceList>
+										</Sound>
+										<Sound Name="MG_Location Movement Selection_B2_Batch A" ID="{66D8FC12-94D3-4141-B57C-7ECA0B061FF5}" ShortID="1058599993">
+											<ReferenceList>
+												<Reference Name="Conversion">
+													<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{E15B4EF8-0B95-40CD-9E74-E6BB39522032}"/>
+												</Reference>
+												<Reference Name="OutputBus">
+													<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{69000F15-8803-4473-85DD-67C1CC5ACA40}"/>
+												</Reference>
+											</ReferenceList>
+											<ChildrenList>
+												<AudioFileSource Name="MG_Location Movement Selection_B2_Batch A" ID="{6113EF46-1049-4DF5-B73D-C724E15E5D61}">
+													<Language>SFX</Language>
+													<AudioFile>MG_Location Movement Selection_B2_Batch A.wav</AudioFile>
+													<MediaIDList>
+														<MediaID ID="711550338"/>
+													</MediaIDList>
+												</AudioFileSource>
+											</ChildrenList>
+											<ActiveSourceList>
+												<ActiveSource Name="MG_Location Movement Selection_B2_Batch A" ID="{6113EF46-1049-4DF5-B73D-C724E15E5D61}" Platform="Linked"/>
+											</ActiveSourceList>
+										</Sound>
+										<Sound Name="MG_Location Movement Selection_B4_Batch A" ID="{41A5281F-7294-438F-AE9A-60E32F9ACF63}" ShortID="35897650">
+											<ReferenceList>
+												<Reference Name="Conversion">
+													<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{E15B4EF8-0B95-40CD-9E74-E6BB39522032}"/>
+												</Reference>
+												<Reference Name="OutputBus">
+													<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{69000F15-8803-4473-85DD-67C1CC5ACA40}"/>
+												</Reference>
+											</ReferenceList>
+											<ChildrenList>
+												<AudioFileSource Name="MG_Location Movement Selection_B4_Batch A" ID="{B120479E-9247-4856-8068-754276193755}">
+													<Language>SFX</Language>
+													<AudioFile>MG_Location Movement Selection_B4_Batch A.wav</AudioFile>
+													<MediaIDList>
+														<MediaID ID="724068951"/>
+													</MediaIDList>
+												</AudioFileSource>
+											</ChildrenList>
+											<ActiveSourceList>
+												<ActiveSource Name="MG_Location Movement Selection_B4_Batch A" ID="{B120479E-9247-4856-8068-754276193755}" Platform="Linked"/>
+											</ActiveSourceList>
+										</Sound>
+										<Sound Name="MG_Location Movement Selection_B7_Batch A" ID="{7CD36B00-0B5D-4151-A888-291F45D6687E}" ShortID="219569176">
+											<ReferenceList>
+												<Reference Name="Conversion">
+													<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{E15B4EF8-0B95-40CD-9E74-E6BB39522032}"/>
+												</Reference>
+												<Reference Name="OutputBus">
+													<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{69000F15-8803-4473-85DD-67C1CC5ACA40}"/>
+												</Reference>
+											</ReferenceList>
+											<ChildrenList>
+												<AudioFileSource Name="MG_Location Movement Selection_B7_Batch A" ID="{2A89E299-3FFD-40CB-896A-DD7BF199E269}">
+													<Language>SFX</Language>
+													<AudioFile>MG_Location Movement Selection_B7_Batch A.wav</AudioFile>
+													<MediaIDList>
+														<MediaID ID="866160312"/>
+													</MediaIDList>
+												</AudioFileSource>
+											</ChildrenList>
+											<ActiveSourceList>
+												<ActiveSource Name="MG_Location Movement Selection_B7_Batch A" ID="{2A89E299-3FFD-40CB-896A-DD7BF199E269}" Platform="Linked"/>
+											</ActiveSourceList>
+										</Sound>
+										<Sound Name="MG_Location Movement Selection_B5_Batch A" ID="{735F7C59-BA7A-411F-8421-9EB7ACD7744C}" ShortID="995454843">
+											<ReferenceList>
+												<Reference Name="Conversion">
+													<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{E15B4EF8-0B95-40CD-9E74-E6BB39522032}"/>
+												</Reference>
+												<Reference Name="OutputBus">
+													<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{69000F15-8803-4473-85DD-67C1CC5ACA40}"/>
+												</Reference>
+											</ReferenceList>
+											<ChildrenList>
+												<AudioFileSource Name="MG_Location Movement Selection_B5_Batch A" ID="{E6AE0203-10BE-453F-A90D-B70F798EF954}">
+													<Language>SFX</Language>
+													<AudioFile>MG_Location Movement Selection_B5_Batch A.wav</AudioFile>
+													<MediaIDList>
+														<MediaID ID="166974260"/>
+													</MediaIDList>
+												</AudioFileSource>
+											</ChildrenList>
+											<ActiveSourceList>
+												<ActiveSource Name="MG_Location Movement Selection_B5_Batch A" ID="{E6AE0203-10BE-453F-A90D-B70F798EF954}" Platform="Linked"/>
+											</ActiveSourceList>
+										</Sound>
+										<Sound Name="MG_Location Movement Selection_B1_Batch A" ID="{36492AF2-8272-4EAD-930F-78EC6296CFE0}" ShortID="208941446">
+											<ReferenceList>
+												<Reference Name="Conversion">
+													<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{E15B4EF8-0B95-40CD-9E74-E6BB39522032}"/>
+												</Reference>
+												<Reference Name="OutputBus">
+													<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{69000F15-8803-4473-85DD-67C1CC5ACA40}"/>
+												</Reference>
+											</ReferenceList>
+											<ChildrenList>
+												<AudioFileSource Name="MG_Location Movement Selection_B1_Batch A" ID="{CDAC96E5-625C-42DB-A7CE-C0B30A4089BB}">
+													<Language>SFX</Language>
+													<AudioFile>MG_Location Movement Selection_B1_Batch A.wav</AudioFile>
+													<MediaIDList>
+														<MediaID ID="315047779"/>
+													</MediaIDList>
+												</AudioFileSource>
+											</ChildrenList>
+											<ActiveSourceList>
+												<ActiveSource Name="MG_Location Movement Selection_B1_Batch A" ID="{CDAC96E5-625C-42DB-A7CE-C0B30A4089BB}" Platform="Linked"/>
+											</ActiveSourceList>
+										</Sound>
+									</ChildrenList>
+								</RandomSequenceContainer>
 							</ChildrenList>
 						</ActorMixer>
 					</ChildrenList>

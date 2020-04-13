@@ -1,61 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <WwiseDocument Type="WorkUnit" ID="{5E67C2A8-4BDE-4BEA-867D-634CE68E641B}" SchemaVersion="97">
 	<Events>
-		<WorkUnit Name="Default Work Unit" ID="{5E67C2A8-4BDE-4BEA-867D-634CE68E641B}" PersistMode="Standalone">
-			<ChildrenList>
-				<Folder Name="Foley" ID="{19829634-E714-4F91-A4B6-1786F23B33DA}" ShortID="443440225">
-					<ChildrenList>
-						<Event Name="Footsteps" ID="{DE750362-337B-487D-8320-C3FA029D51A4}">
-							<ChildrenList>
-								<Action Name="" ID="{FBEEA0C0-8433-40AA-BAC6-187BE5106CC2}" ShortID="125856562">
-									<ReferenceList>
-										<Reference Name="Target">
-											<ObjectRef Name="Footsteps" ID="{A5CF6735-F387-45B8-A004-92578C440252}" WorkUnitID="{B9BBAB77-5CE1-4B38-848A-AC4C160736E4}"/>
-										</Reference>
-									</ReferenceList>
-								</Action>
-							</ChildrenList>
-						</Event>
-					</ChildrenList>
-				</Folder>
-				<Folder Name="UI Sounds" ID="{A08038DF-20F5-4B15-8750-52B2E8777440}" ShortID="313953845">
-					<ChildrenList>
-						<Event Name="Button_A" ID="{83CFA12F-7B2F-47CC-8687-06793D0C3B55}">
-							<ChildrenList>
-								<Action Name="" ID="{9249CA8D-6BE6-417F-A976-07186E4117E7}" ShortID="279904947">
-									<ReferenceList>
-										<Reference Name="Target">
-											<ObjectRef Name="MG 1_UI Sounds_Start Menu 1_Button A1_Batch A" ID="{8F19E8F0-3849-45DD-B305-E18F56E232A7}" WorkUnitID="{B9BBAB77-5CE1-4B38-848A-AC4C160736E4}"/>
-										</Reference>
-									</ReferenceList>
-								</Action>
-							</ChildrenList>
-						</Event>
-						<Event Name="Button_B" ID="{C3E36265-79D7-43F6-B27E-C2A35F0E6F7A}">
-							<ChildrenList>
-								<Action Name="" ID="{E5291BDE-5D68-4AEA-8F62-3E4FA97D1C12}" ShortID="584905939">
-									<ReferenceList>
-										<Reference Name="Target">
-											<ObjectRef Name="MG 1_UI Sounds_Start Menu 1_Droplet A1_Batch A" ID="{B605F074-075F-4B87-A9C1-1F48A9A07C48}" WorkUnitID="{B9BBAB77-5CE1-4B38-848A-AC4C160736E4}"/>
-										</Reference>
-									</ReferenceList>
-								</Action>
-							</ChildrenList>
-						</Event>
-						<Event Name="Button_C" ID="{0C80B7B0-7098-4CA8-B2BD-B97876A9B81B}">
-							<ChildrenList>
-								<Action Name="" ID="{7C42FC3C-EF53-47E8-9181-F292067635F4}" ShortID="800746688">
-									<ReferenceList>
-										<Reference Name="Target">
-											<ObjectRef Name="MG 1_UI Sounds_Start Menu 1_Droplet A2_Batch A" ID="{B09078BD-B6F1-48B9-AA4D-26D01D04D846}" WorkUnitID="{B9BBAB77-5CE1-4B38-848A-AC4C160736E4}"/>
-										</Reference>
-									</ReferenceList>
-								</Action>
-							</ChildrenList>
-						</Event>
-					</ChildrenList>
-				</Folder>
-			</ChildrenList>
-		</WorkUnit>
+		<WorkUnit Name="Default Work Unit" ID="{5E67C2A8-4BDE-4BEA-867D-634CE68E641B}" PersistMode="Standalone"/>
 	</Events>
 </WwiseDocument>

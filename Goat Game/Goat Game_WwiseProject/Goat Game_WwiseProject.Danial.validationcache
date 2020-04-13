@@ -1,11 +1,15 @@
 <?xml version="1.0" encoding="utf-8"?>
 <ValidationCache Version="1" SchemaVersion="97">
 	<ValidationCacheItem File="E:\Azeray\Documents\Game Projects\Freelance Initiative\GitHub\Cow-Game\Goat Game\Goat Game_WwiseProject\Virtual Acoustics\Default Work Unit.wwu" DateLow="1585535191" DateHigh="0"/>
-	<ValidationCacheItem File="E:\Azeray\Documents\Game Projects\Freelance Initiative\GitHub\Cow-Game\Goat Game\Goat Game_WwiseProject\Triggers\Default Work Unit.wwu" DateLow="1585535191" DateHigh="0"/>
-	<ValidationCacheItem File="E:\Azeray\Documents\Game Projects\Freelance Initiative\GitHub\Cow-Game\Goat Game\Goat Game_WwiseProject\Switches\Default Work Unit.wwu" DateLow="1585613683" DateHigh="0"/>
+	<ValidationCacheItem File="E:\Azeray\Documents\Game Projects\Freelance Initiative\GitHub\Cow-Game\Goat Game\Goat Game_WwiseProject\Triggers\Default Work Unit.wwu" DateLow="1586211885" DateHigh="0"/>
+	<ValidationCacheItem File="E:\Azeray\Documents\Game Projects\Freelance Initiative\GitHub\Cow-Game\Goat Game\Goat Game_WwiseProject\Switches\Foley.wwu" DateLow="1586210732" DateHigh="0"/>
+	<ValidationCacheItem File="E:\Azeray\Documents\Game Projects\Freelance Initiative\GitHub\Cow-Game\Goat Game\Goat Game_WwiseProject\Switches\Default Work Unit.wwu" DateLow="1586210732" DateHigh="0"/>
 	<ValidationCacheItem File="E:\Azeray\Documents\Game Projects\Freelance Initiative\GitHub\Cow-Game\Goat Game\Goat Game_WwiseProject\States\Default Work Unit.wwu" DateLow="1585535191" DateHigh="0"/>
 	<ValidationCacheItem File="E:\Azeray\Documents\Game Projects\Freelance Initiative\GitHub\Cow-Game\Goat Game\Goat Game_WwiseProject\Soundcaster Sessions\Default Work Unit.wwu" DateLow="1585535191" DateHigh="0"/>
-	<ValidationCacheItem File="E:\Azeray\Documents\Game Projects\Freelance Initiative\GitHub\Cow-Game\Goat Game\Goat Game_WwiseProject\SoundBanks\Default Work Unit.wwu" DateLow="1585539357" DateHigh="0"/>
+	<ValidationCacheItem File="E:\Azeray\Documents\Game Projects\Freelance Initiative\GitHub\Cow-Game\Goat Game\Goat Game_WwiseProject\SoundBanks\UI_Sounds.wwu" DateLow="1586207344" DateHigh="0"/>
+	<ValidationCacheItem File="E:\Azeray\Documents\Game Projects\Freelance Initiative\GitHub\Cow-Game\Goat Game\Goat Game_WwiseProject\SoundBanks\Music.wwu" DateLow="1586215686" DateHigh="0"/>
+	<ValidationCacheItem File="E:\Azeray\Documents\Game Projects\Freelance Initiative\GitHub\Cow-Game\Goat Game\Goat Game_WwiseProject\SoundBanks\Foley.wwu" DateLow="1586207333" DateHigh="0"/>
+	<ValidationCacheItem File="E:\Azeray\Documents\Game Projects\Freelance Initiative\GitHub\Cow-Game\Goat Game\Goat Game_WwiseProject\SoundBanks\Default Work Unit.wwu" DateLow="1586207344" DateHigh="0"/>
 	<ValidationCacheItem File="E:\Azeray\Documents\Game Projects\Freelance Initiative\GitHub\Cow-Game\Goat Game\Goat Game_WwiseProject\Queries\Factory Queries.wwu" DateLow="1585535191" DateHigh="0"/>
 	<ValidationCacheItem File="E:\Azeray\Documents\Game Projects\Freelance Initiative\GitHub\Cow-Game\Goat Game\Goat Game_WwiseProject\Queries\Default Work Unit.wwu" DateLow="1585535191" DateHigh="0"/>
 	<ValidationCacheItem File="E:\Azeray\Documents\Game Projects\Freelance Initiative\GitHub\Cow-Game\Goat Game\Goat Game_WwiseProject\Presets\Factory Spatial Audio.wwu" DateLow="1585535191" DateHigh="0"/>
@@ -13,11 +17,15 @@
 	<ValidationCacheItem File="E:\Azeray\Documents\Game Projects\Freelance Initiative\GitHub\Cow-Game\Goat Game\Goat Game_WwiseProject\Modulators\Default Work Unit.wwu" DateLow="1585535191" DateHigh="0"/>
 	<ValidationCacheItem File="E:\Azeray\Documents\Game Projects\Freelance Initiative\GitHub\Cow-Game\Goat Game\Goat Game_WwiseProject\Mixing Sessions\Default Work Unit.wwu" DateLow="1585535191" DateHigh="0"/>
 	<ValidationCacheItem File="E:\Azeray\Documents\Game Projects\Freelance Initiative\GitHub\Cow-Game\Goat Game\Goat Game_WwiseProject\Master-Mixer Hierarchy\Default Work Unit.wwu" DateLow="1585535191" DateHigh="0"/>
-	<ValidationCacheItem File="E:\Azeray\Documents\Game Projects\Freelance Initiative\GitHub\Cow-Game\Goat Game\Goat Game_WwiseProject\Interactive Music Hierarchy\Default Work Unit.wwu" DateLow="1585535191" DateHigh="0"/>
+	<ValidationCacheItem File="E:\Azeray\Documents\Game Projects\Freelance Initiative\GitHub\Cow-Game\Goat Game\Goat Game_WwiseProject\Interactive Music Hierarchy\Music.wwu" DateLow="1586215454" DateHigh="0"/>
+	<ValidationCacheItem File="E:\Azeray\Documents\Game Projects\Freelance Initiative\GitHub\Cow-Game\Goat Game\Goat Game_WwiseProject\Interactive Music Hierarchy\Default Work Unit.wwu" DateLow="1586205564" DateHigh="0"/>
 	<ValidationCacheItem File="E:\Azeray\Documents\Game Projects\Freelance Initiative\GitHub\Cow-Game\Goat Game\Goat Game_WwiseProject\Goat Game_WwiseProject.wproj" DateLow="1585535191" DateHigh="0"/>
-	<ValidationCacheItem File="E:\Azeray\Documents\Game Projects\Freelance Initiative\GitHub\Cow-Game\Goat Game\Goat Game_WwiseProject\Goat Game_WwiseProject.Danial.wsettings" DateLow="1585619096" DateHigh="0"/>
+	<ValidationCacheItem File="E:\Azeray\Documents\Game Projects\Freelance Initiative\GitHub\Cow-Game\Goat Game\Goat Game_WwiseProject\Goat Game_WwiseProject.Danial.wsettings" DateLow="1586221291" DateHigh="0"/>
 	<ValidationCacheItem File="E:\Azeray\Documents\Game Projects\Freelance Initiative\GitHub\Cow-Game\Goat Game\Goat Game_WwiseProject\Game Parameters\Default Work Unit.wwu" DateLow="1585535191" DateHigh="0"/>
-	<ValidationCacheItem File="E:\Azeray\Documents\Game Projects\Freelance Initiative\GitHub\Cow-Game\Goat Game\Goat Game_WwiseProject\Events\Default Work Unit.wwu" DateLow="1585613863" DateHigh="0"/>
+	<ValidationCacheItem File="E:\Azeray\Documents\Game Projects\Freelance Initiative\GitHub\Cow-Game\Goat Game\Goat Game_WwiseProject\Events\UI Sounds.wwu" DateLow="1586207207" DateHigh="0"/>
+	<ValidationCacheItem File="E:\Azeray\Documents\Game Projects\Freelance Initiative\GitHub\Cow-Game\Goat Game\Goat Game_WwiseProject\Events\Music.wwu" DateLow="1586215446" DateHigh="0"/>
+	<ValidationCacheItem File="E:\Azeray\Documents\Game Projects\Freelance Initiative\GitHub\Cow-Game\Goat Game\Goat Game_WwiseProject\Events\Foley.wwu" DateLow="1586207207" DateHigh="0"/>
+	<ValidationCacheItem File="E:\Azeray\Documents\Game Projects\Freelance Initiative\GitHub\Cow-Game\Goat Game\Goat Game_WwiseProject\Events\Default Work Unit.wwu" DateLow="1586207207" DateHigh="0"/>
 	<ValidationCacheItem File="E:\Azeray\Documents\Game Projects\Freelance Initiative\GitHub\Cow-Game\Goat Game\Goat Game_WwiseProject\Effects\Factory Effects.wwu" DateLow="1585535191" DateHigh="0"/>
 	<ValidationCacheItem File="E:\Azeray\Documents\Game Projects\Freelance Initiative\GitHub\Cow-Game\Goat Game\Goat Game_WwiseProject\Effects\Default Work Unit.wwu" DateLow="1585535191" DateHigh="0"/>
 	<ValidationCacheItem File="E:\Azeray\Documents\Game Projects\Freelance Initiative\GitHub\Cow-Game\Goat Game\Goat Game_WwiseProject\Dynamic Dialogue\Default Work Unit.wwu" DateLow="1585535191" DateHigh="0"/>
@@ -26,5 +34,5 @@
 	<ValidationCacheItem File="E:\Azeray\Documents\Game Projects\Freelance Initiative\GitHub\Cow-Game\Goat Game\Goat Game_WwiseProject\Control Surface Sessions\Default Work Unit.wwu" DateLow="1585539357" DateHigh="0"/>
 	<ValidationCacheItem File="E:\Azeray\Documents\Game Projects\Freelance Initiative\GitHub\Cow-Game\Goat Game\Goat Game_WwiseProject\Audio Devices\Default Work Unit.wwu" DateLow="1585535191" DateHigh="0"/>
 	<ValidationCacheItem File="E:\Azeray\Documents\Game Projects\Freelance Initiative\GitHub\Cow-Game\Goat Game\Goat Game_WwiseProject\Attenuations\Default Work Unit.wwu" DateLow="1585535191" DateHigh="0"/>
-	<ValidationCacheItem File="E:\Azeray\Documents\Game Projects\Freelance Initiative\GitHub\Cow-Game\Goat Game\Goat Game_WwiseProject\Actor-Mixer Hierarchy\Default Work Unit.wwu" DateLow="1585613863" DateHigh="0"/>
+	<ValidationCacheItem File="E:\Azeray\Documents\Game Projects\Freelance Initiative\GitHub\Cow-Game\Goat Game\Goat Game_WwiseProject\Actor-Mixer Hierarchy\Default Work Unit.wwu" DateLow="1586210732" DateHigh="0"/>
 </ValidationCache>
