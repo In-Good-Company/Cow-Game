@@ -59,6 +59,8 @@
      <Compile Include="Assets\Scripts\CowMove.cs" />
      <Compile Include="Assets\Scripts\PlayerMove.cs" />
      <Compile Include="Assets\Scripts\shout.cs" />
+     <Compile Include="Assets\Scripts\UI Scripts\cowSpin.cs" />
+     <Compile Include="Assets\Scripts\UI Scripts\loadScreen.cs" />
      <Compile Include="Assets\Wwise\Deployment\API\Generated\Android\AkAudioAPI_Android.cs" />
      <Compile Include="Assets\Wwise\Deployment\API\Generated\Android\AkCommunicationSettings_Android.cs" />
      <Compile Include="Assets\Wwise\Deployment\API\Generated\Android\AkPlatformInitSettings_Android.cs" />
