@@ -1,6 +1,739 @@
 <?xml version="1.0" encoding="utf-8"?>
 <WwiseDocument Type="WorkUnit" ID="{B9BBAB77-5CE1-4B38-848A-AC4C160736E4}" SchemaVersion="97">
 	<AudioObjects>
-		<WorkUnit Name="Default Work Unit" ID="{B9BBAB77-5CE1-4B38-848A-AC4C160736E4}" PersistMode="Standalone"/>
+		<WorkUnit Name="Default Work Unit" ID="{B9BBAB77-5CE1-4B38-848A-AC4C160736E4}" PersistMode="Standalone">
+			<ChildrenList>
+				<Folder Name="Foley" ID="{4F3D1BA8-8178-4846-AC86-149BCD97FB51}" ShortID="429912290">
+					<ChildrenList>
+						<SwitchContainer Name="Footsteps" ID="{A5CF6735-F387-45B8-A004-92578C440252}" ShortID="654355103">
+							<ReferenceList>
+								<Reference Name="Conversion">
+									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{E15B4EF8-0B95-40CD-9E74-E6BB39522032}"/>
+								</Reference>
+								<Reference Name="DefaultSwitchOrState">
+									<ObjectRef Name="Footsteps_Weeds" ID="{D44683DA-4D89-4B25-8C0A-FE99ADADE46A}" WorkUnitID="{016F5C18-2F09-49ED-9BC0-6D30954F2BFB}"/>
+								</Reference>
+								<Reference Name="OutputBus">
+									<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{69000F15-8803-4473-85DD-67C1CC5ACA40}"/>
+								</Reference>
+								<Reference Name="SwitchGroupOrStateGroup">
+									<ObjectRef Name="Footsteps" ID="{C8945A4F-0620-4D56-96DC-23DBD5038C9B}" WorkUnitID="{016F5C18-2F09-49ED-9BC0-6D30954F2BFB}"/>
+								</Reference>
+							</ReferenceList>
+							<ChildrenList>
+								<RandomSequenceContainer Name="Footsteps_Weeds" ID="{A00944CF-F7BC-44C3-9F60-5D4E4BF4272E}" ShortID="46112976">
+									<PropertyList>
+										<Property Name="Pitch" Type="int32">
+											<ModifierList>
+												<ModifierInfo>
+													<Modifier Name="" ID="{2A69BA0E-CAF4-4357-9EC7-ABE4E6223856}">
+														<PropertyList>
+															<Property Name="Enabled" Type="bool" Value="True"/>
+															<Property Name="Max" Type="Real64" Value="200"/>
+															<Property Name="Min" Type="Real64" Value="-200"/>
+														</PropertyList>
+													</Modifier>
+												</ModifierInfo>
+											</ModifierList>
+										</Property>
+										<Property Name="RandomAvoidRepeatingCount" Type="int32" Value="4"/>
+									</PropertyList>
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{E15B4EF8-0B95-40CD-9E74-E6BB39522032}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{69000F15-8803-4473-85DD-67C1CC5ACA40}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<Sound Name="MG 1_Cow Steps_Weeds A2_Batch B" ID="{8ECB4E22-FD19-446E-8E7A-A0DBF1DDB83D}" ShortID="173810028">
+											<ReferenceList>
+												<Reference Name="Conversion">
+													<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{E15B4EF8-0B95-40CD-9E74-E6BB39522032}"/>
+												</Reference>
+												<Reference Name="OutputBus">
+													<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{69000F15-8803-4473-85DD-67C1CC5ACA40}"/>
+												</Reference>
+											</ReferenceList>
+											<ChildrenList>
+												<AudioFileSource Name="MG 1_Cow Steps_Weeds A2_Batch B" ID="{1F6612F7-5837-49D5-9231-132B17E7E537}">
+													<Language>SFX</Language>
+													<AudioFile>MG 1_Cow Steps_Weeds A2_Batch B.wav</AudioFile>
+													<MediaIDList>
+														<MediaID ID="464699108"/>
+													</MediaIDList>
+												</AudioFileSource>
+											</ChildrenList>
+											<ActiveSourceList>
+												<ActiveSource Name="MG 1_Cow Steps_Weeds A2_Batch B" ID="{1F6612F7-5837-49D5-9231-132B17E7E537}" Platform="Linked"/>
+											</ActiveSourceList>
+										</Sound>
+										<Sound Name="MG 1_Cow Steps_Weeds A3_Batch B" ID="{541C8A0B-31F2-45A0-B775-74E2D11C5460}" ShortID="804564885">
+											<ReferenceList>
+												<Reference Name="Conversion">
+													<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{E15B4EF8-0B95-40CD-9E74-E6BB39522032}"/>
+												</Reference>
+												<Reference Name="OutputBus">
+													<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{69000F15-8803-4473-85DD-67C1CC5ACA40}"/>
+												</Reference>
+											</ReferenceList>
+											<ChildrenList>
+												<AudioFileSource Name="MG 1_Cow Steps_Weeds A3_Batch B" ID="{9A34F7D9-B646-4F8D-94D1-4E96A1B066DC}">
+													<Language>SFX</Language>
+													<AudioFile>MG 1_Cow Steps_Weeds A3_Batch B.wav</AudioFile>
+													<MediaIDList>
+														<MediaID ID="1007335975"/>
+													</MediaIDList>
+												</AudioFileSource>
+											</ChildrenList>
+											<ActiveSourceList>
+												<ActiveSource Name="MG 1_Cow Steps_Weeds A3_Batch B" ID="{9A34F7D9-B646-4F8D-94D1-4E96A1B066DC}" Platform="Linked"/>
+											</ActiveSourceList>
+										</Sound>
+										<Sound Name="MG 1_Cow Steps_Weeds A4_Batch B" ID="{FD55FF86-3181-4CE2-BAB1-5E923BFEA50F}" ShortID="131661768">
+											<ReferenceList>
+												<Reference Name="Conversion">
+													<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{E15B4EF8-0B95-40CD-9E74-E6BB39522032}"/>
+												</Reference>
+												<Reference Name="OutputBus">
+													<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{69000F15-8803-4473-85DD-67C1CC5ACA40}"/>
+												</Reference>
+											</ReferenceList>
+											<ChildrenList>
+												<AudioFileSource Name="MG 1_Cow Steps_Weeds A4_Batch B" ID="{8F211FE8-75DD-48BA-8016-B2D8F027489B}">
+													<Language>SFX</Language>
+													<AudioFile>MG 1_Cow Steps_Weeds A4_Batch B.wav</AudioFile>
+													<MediaIDList>
+														<MediaID ID="707642965"/>
+													</MediaIDList>
+												</AudioFileSource>
+											</ChildrenList>
+											<ActiveSourceList>
+												<ActiveSource Name="MG 1_Cow Steps_Weeds A4_Batch B" ID="{8F211FE8-75DD-48BA-8016-B2D8F027489B}" Platform="Linked"/>
+											</ActiveSourceList>
+										</Sound>
+										<Sound Name="MG 1_Cow Steps_Weeds A5_Batch B" ID="{5AA2B052-5C57-4972-A9B8-853B2BD7B548}" ShortID="901475340">
+											<ReferenceList>
+												<Reference Name="Conversion">
+													<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{E15B4EF8-0B95-40CD-9E74-E6BB39522032}"/>
+												</Reference>
+												<Reference Name="OutputBus">
+													<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{69000F15-8803-4473-85DD-67C1CC5ACA40}"/>
+												</Reference>
+											</ReferenceList>
+											<ChildrenList>
+												<AudioFileSource Name="MG 1_Cow Steps_Weeds A5_Batch B" ID="{EF759E97-D829-46E2-9FE9-6C6F8723E674}">
+													<Language>SFX</Language>
+													<AudioFile>MG 1_Cow Steps_Weeds A5_Batch B.wav</AudioFile>
+													<MediaIDList>
+														<MediaID ID="235640065"/>
+													</MediaIDList>
+												</AudioFileSource>
+											</ChildrenList>
+											<ActiveSourceList>
+												<ActiveSource Name="MG 1_Cow Steps_Weeds A5_Batch B" ID="{EF759E97-D829-46E2-9FE9-6C6F8723E674}" Platform="Linked"/>
+											</ActiveSourceList>
+										</Sound>
+										<Sound Name="MG 1_Cow Steps_Weeds A6_Batch B" ID="{240260E8-B0FC-45DD-AF0A-270586FBD47D}" ShortID="1062771988">
+											<ReferenceList>
+												<Reference Name="Conversion">
+													<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{E15B4EF8-0B95-40CD-9E74-E6BB39522032}"/>
+												</Reference>
+												<Reference Name="OutputBus">
+													<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{69000F15-8803-4473-85DD-67C1CC5ACA40}"/>
+												</Reference>
+											</ReferenceList>
+											<ChildrenList>
+												<AudioFileSource Name="MG 1_Cow Steps_Weeds A6_Batch B" ID="{8816CFBA-E34F-4BA1-99E4-55B2252B5164}">
+													<Language>SFX</Language>
+													<AudioFile>MG 1_Cow Steps_Weeds A6_Batch B.wav</AudioFile>
+													<MediaIDList>
+														<MediaID ID="503413456"/>
+													</MediaIDList>
+												</AudioFileSource>
+											</ChildrenList>
+											<ActiveSourceList>
+												<ActiveSource Name="MG 1_Cow Steps_Weeds A6_Batch B" ID="{8816CFBA-E34F-4BA1-99E4-55B2252B5164}" Platform="Linked"/>
+											</ActiveSourceList>
+										</Sound>
+										<Sound Name="MG 1_Cow Steps_Weeds A7_Batch B" ID="{15464534-4AC5-4A30-8F79-9E62A66735A7}" ShortID="785322491">
+											<ReferenceList>
+												<Reference Name="Conversion">
+													<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{E15B4EF8-0B95-40CD-9E74-E6BB39522032}"/>
+												</Reference>
+												<Reference Name="OutputBus">
+													<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{69000F15-8803-4473-85DD-67C1CC5ACA40}"/>
+												</Reference>
+											</ReferenceList>
+											<ChildrenList>
+												<AudioFileSource Name="MG 1_Cow Steps_Weeds A7_Batch B" ID="{F0AC173A-7CC8-4896-939B-E03BEF797510}">
+													<Language>SFX</Language>
+													<AudioFile>MG 1_Cow Steps_Weeds A7_Batch B.wav</AudioFile>
+													<MediaIDList>
+														<MediaID ID="545493499"/>
+													</MediaIDList>
+												</AudioFileSource>
+											</ChildrenList>
+											<ActiveSourceList>
+												<ActiveSource Name="MG 1_Cow Steps_Weeds A7_Batch B" ID="{F0AC173A-7CC8-4896-939B-E03BEF797510}" Platform="Linked"/>
+											</ActiveSourceList>
+										</Sound>
+										<Sound Name="MG 1_Cow Steps_Weeds A8_Batch B" ID="{515DE7C5-857B-43D9-BD41-DFB8C9AAB066}" ShortID="1014652559">
+											<ReferenceList>
+												<Reference Name="Conversion">
+													<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{E15B4EF8-0B95-40CD-9E74-E6BB39522032}"/>
+												</Reference>
+												<Reference Name="OutputBus">
+													<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{69000F15-8803-4473-85DD-67C1CC5ACA40}"/>
+												</Reference>
+											</ReferenceList>
+											<ChildrenList>
+												<AudioFileSource Name="MG 1_Cow Steps_Weeds A8_Batch B" ID="{2C78EB48-CF59-435C-A335-C89E39FAEE8E}">
+													<Language>SFX</Language>
+													<AudioFile>MG 1_Cow Steps_Weeds A8_Batch B.wav</AudioFile>
+													<MediaIDList>
+														<MediaID ID="345077210"/>
+													</MediaIDList>
+												</AudioFileSource>
+											</ChildrenList>
+											<ActiveSourceList>
+												<ActiveSource Name="MG 1_Cow Steps_Weeds A8_Batch B" ID="{2C78EB48-CF59-435C-A335-C89E39FAEE8E}" Platform="Linked"/>
+											</ActiveSourceList>
+										</Sound>
+										<Sound Name="MG 1_Cow Steps_Weeds A1_Batch B" ID="{3C89E1FE-08B4-4C73-AD73-BB86B5D3C310}" ShortID="735468145">
+											<ReferenceList>
+												<Reference Name="Conversion">
+													<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{E15B4EF8-0B95-40CD-9E74-E6BB39522032}"/>
+												</Reference>
+												<Reference Name="OutputBus">
+													<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{69000F15-8803-4473-85DD-67C1CC5ACA40}"/>
+												</Reference>
+											</ReferenceList>
+											<ChildrenList>
+												<AudioFileSource Name="MG 1_Cow Steps_Weeds A1_Batch B" ID="{9B6E801A-665F-4EF8-A34A-ED202887ED8D}">
+													<Language>SFX</Language>
+													<AudioFile>MG 1_Cow Steps_Weeds A1_Batch B.wav</AudioFile>
+													<MediaIDList>
+														<MediaID ID="532500078"/>
+													</MediaIDList>
+												</AudioFileSource>
+											</ChildrenList>
+											<ActiveSourceList>
+												<ActiveSource Name="MG 1_Cow Steps_Weeds A1_Batch B" ID="{9B6E801A-665F-4EF8-A34A-ED202887ED8D}" Platform="Linked"/>
+											</ActiveSourceList>
+										</Sound>
+									</ChildrenList>
+								</RandomSequenceContainer>
+								<RandomSequenceContainer Name="Footsteps_Weeds_Grass" ID="{D2FF9728-7ACD-4F0B-97CD-30A60C7FE607}" ShortID="513387269">
+									<PropertyList>
+										<Property Name="Pitch" Type="int32">
+											<ModifierList>
+												<ModifierInfo>
+													<Modifier Name="" ID="{1ACE5167-7652-4D23-94C6-AD7DE796DF95}">
+														<PropertyList>
+															<Property Name="Enabled" Type="bool" Value="True"/>
+															<Property Name="Max" Type="Real64" Value="200"/>
+															<Property Name="Min" Type="Real64" Value="-200"/>
+														</PropertyList>
+													</Modifier>
+												</ModifierInfo>
+											</ModifierList>
+										</Property>
+										<Property Name="RandomAvoidRepeatingCount" Type="int32" Value="4"/>
+									</PropertyList>
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{E15B4EF8-0B95-40CD-9E74-E6BB39522032}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{69000F15-8803-4473-85DD-67C1CC5ACA40}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<Sound Name="MG 1_Cow Steps_Weeds A2_Batch B" ID="{C8BD4768-5D89-417F-AF71-801F301E883A}" ShortID="38437889">
+											<ReferenceList>
+												<Reference Name="Conversion">
+													<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{E15B4EF8-0B95-40CD-9E74-E6BB39522032}"/>
+												</Reference>
+												<Reference Name="OutputBus">
+													<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{69000F15-8803-4473-85DD-67C1CC5ACA40}"/>
+												</Reference>
+											</ReferenceList>
+											<ChildrenList>
+												<AudioFileSource Name="MG 1_Cow Steps_Weeds A2_Batch B" ID="{E118793F-D35F-4683-B59A-D0D13AF433B5}">
+													<Language>SFX</Language>
+													<AudioFile>MG 1_Cow Steps_Weeds A2_Batch B.wav</AudioFile>
+													<MediaIDList>
+														<MediaID ID="464699108"/>
+													</MediaIDList>
+												</AudioFileSource>
+											</ChildrenList>
+											<ActiveSourceList>
+												<ActiveSource Name="MG 1_Cow Steps_Weeds A2_Batch B" ID="{E118793F-D35F-4683-B59A-D0D13AF433B5}" Platform="Linked"/>
+											</ActiveSourceList>
+										</Sound>
+										<Sound Name="MG 1_Cow Steps_Weeds A3_Batch B" ID="{A1A61DB8-F37A-4C86-BE22-5C545F4CF6C5}" ShortID="156212965">
+											<ReferenceList>
+												<Reference Name="Conversion">
+													<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{E15B4EF8-0B95-40CD-9E74-E6BB39522032}"/>
+												</Reference>
+												<Reference Name="OutputBus">
+													<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{69000F15-8803-4473-85DD-67C1CC5ACA40}"/>
+												</Reference>
+											</ReferenceList>
+											<ChildrenList>
+												<AudioFileSource Name="MG 1_Cow Steps_Weeds A3_Batch B" ID="{FEE80DFD-4FFA-43E4-BA41-656FFF798BD1}">
+													<Language>SFX</Language>
+													<AudioFile>MG 1_Cow Steps_Weeds A3_Batch B.wav</AudioFile>
+													<MediaIDList>
+														<MediaID ID="1007335975"/>
+													</MediaIDList>
+												</AudioFileSource>
+											</ChildrenList>
+											<ActiveSourceList>
+												<ActiveSource Name="MG 1_Cow Steps_Weeds A3_Batch B" ID="{FEE80DFD-4FFA-43E4-BA41-656FFF798BD1}" Platform="Linked"/>
+											</ActiveSourceList>
+										</Sound>
+										<Sound Name="MG 1_Cow Steps_Weeds A4_Batch B" ID="{F295DDCF-67B2-49E0-A89F-F4B6288DBE5B}" ShortID="67605950">
+											<ReferenceList>
+												<Reference Name="Conversion">
+													<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{E15B4EF8-0B95-40CD-9E74-E6BB39522032}"/>
+												</Reference>
+												<Reference Name="OutputBus">
+													<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{69000F15-8803-4473-85DD-67C1CC5ACA40}"/>
+												</Reference>
+											</ReferenceList>
+											<ChildrenList>
+												<AudioFileSource Name="MG 1_Cow Steps_Weeds A4_Batch B" ID="{D3914971-6E54-4551-998A-651DDB34EADF}">
+													<Language>SFX</Language>
+													<AudioFile>MG 1_Cow Steps_Weeds A4_Batch B.wav</AudioFile>
+													<MediaIDList>
+														<MediaID ID="707642965"/>
+													</MediaIDList>
+												</AudioFileSource>
+											</ChildrenList>
+											<ActiveSourceList>
+												<ActiveSource Name="MG 1_Cow Steps_Weeds A4_Batch B" ID="{D3914971-6E54-4551-998A-651DDB34EADF}" Platform="Linked"/>
+											</ActiveSourceList>
+										</Sound>
+										<Sound Name="MG 1_Cow Steps_Weeds A5_Batch B" ID="{46267D02-B448-41D9-BBA9-9880FD243DC5}" ShortID="701770852">
+											<ReferenceList>
+												<Reference Name="Conversion">
+													<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{E15B4EF8-0B95-40CD-9E74-E6BB39522032}"/>
+												</Reference>
+												<Reference Name="OutputBus">
+													<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{69000F15-8803-4473-85DD-67C1CC5ACA40}"/>
+												</Reference>
+											</ReferenceList>
+											<ChildrenList>
+												<AudioFileSource Name="MG 1_Cow Steps_Weeds A5_Batch B" ID="{970C260C-C613-4792-A3AE-AA6588BF0663}">
+													<Language>SFX</Language>
+													<AudioFile>MG 1_Cow Steps_Weeds A5_Batch B.wav</AudioFile>
+													<MediaIDList>
+														<MediaID ID="235640065"/>
+													</MediaIDList>
+												</AudioFileSource>
+											</ChildrenList>
+											<ActiveSourceList>
+												<ActiveSource Name="MG 1_Cow Steps_Weeds A5_Batch B" ID="{970C260C-C613-4792-A3AE-AA6588BF0663}" Platform="Linked"/>
+											</ActiveSourceList>
+										</Sound>
+										<Sound Name="MG 1_Cow Steps_Weeds A6_Batch B" ID="{8EC3755D-49C5-4B22-8B23-CB71DCFF6C4B}" ShortID="747816930">
+											<ReferenceList>
+												<Reference Name="Conversion">
+													<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{E15B4EF8-0B95-40CD-9E74-E6BB39522032}"/>
+												</Reference>
+												<Reference Name="OutputBus">
+													<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{69000F15-8803-4473-85DD-67C1CC5ACA40}"/>
+												</Reference>
+											</ReferenceList>
+											<ChildrenList>
+												<AudioFileSource Name="MG 1_Cow Steps_Weeds A6_Batch B" ID="{1EEEE0A8-ABA6-410F-9241-ABF002B5CD0F}">
+													<Language>SFX</Language>
+													<AudioFile>MG 1_Cow Steps_Weeds A6_Batch B.wav</AudioFile>
+													<MediaIDList>
+														<MediaID ID="503413456"/>
+													</MediaIDList>
+												</AudioFileSource>
+											</ChildrenList>
+											<ActiveSourceList>
+												<ActiveSource Name="MG 1_Cow Steps_Weeds A6_Batch B" ID="{1EEEE0A8-ABA6-410F-9241-ABF002B5CD0F}" Platform="Linked"/>
+											</ActiveSourceList>
+										</Sound>
+										<Sound Name="MG 1_Cow Steps_Weeds A7_Batch B" ID="{526E55DD-6508-4133-BE88-7D62210C429F}" ShortID="997748425">
+											<ReferenceList>
+												<Reference Name="Conversion">
+													<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{E15B4EF8-0B95-40CD-9E74-E6BB39522032}"/>
+												</Reference>
+												<Reference Name="OutputBus">
+													<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{69000F15-8803-4473-85DD-67C1CC5ACA40}"/>
+												</Reference>
+											</ReferenceList>
+											<ChildrenList>
+												<AudioFileSource Name="MG 1_Cow Steps_Weeds A7_Batch B" ID="{AA0FF6DB-CEE5-43EF-989D-D52D730BAB6E}">
+													<Language>SFX</Language>
+													<AudioFile>MG 1_Cow Steps_Weeds A7_Batch B.wav</AudioFile>
+													<MediaIDList>
+														<MediaID ID="545493499"/>
+													</MediaIDList>
+												</AudioFileSource>
+											</ChildrenList>
+											<ActiveSourceList>
+												<ActiveSource Name="MG 1_Cow Steps_Weeds A7_Batch B" ID="{AA0FF6DB-CEE5-43EF-989D-D52D730BAB6E}" Platform="Linked"/>
+											</ActiveSourceList>
+										</Sound>
+										<Sound Name="MG 1_Cow Steps_Weeds A8_Batch B" ID="{2B4985FE-86F3-49A2-98E4-4D0678844FE4}" ShortID="236941507">
+											<ReferenceList>
+												<Reference Name="Conversion">
+													<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{E15B4EF8-0B95-40CD-9E74-E6BB39522032}"/>
+												</Reference>
+												<Reference Name="OutputBus">
+													<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{69000F15-8803-4473-85DD-67C1CC5ACA40}"/>
+												</Reference>
+											</ReferenceList>
+											<ChildrenList>
+												<AudioFileSource Name="MG 1_Cow Steps_Weeds A8_Batch B" ID="{1CA194C9-3436-4BD1-ACB7-E9F9FCD77855}">
+													<Language>SFX</Language>
+													<AudioFile>MG 1_Cow Steps_Weeds A8_Batch B.wav</AudioFile>
+													<MediaIDList>
+														<MediaID ID="345077210"/>
+													</MediaIDList>
+												</AudioFileSource>
+											</ChildrenList>
+											<ActiveSourceList>
+												<ActiveSource Name="MG 1_Cow Steps_Weeds A8_Batch B" ID="{1CA194C9-3436-4BD1-ACB7-E9F9FCD77855}" Platform="Linked"/>
+											</ActiveSourceList>
+										</Sound>
+										<Sound Name="MG 1_Cow Steps_Weeds A1_Batch B" ID="{0F60DC5D-A9E0-418C-8C29-C26AB9390183}" ShortID="687586503">
+											<ReferenceList>
+												<Reference Name="Conversion">
+													<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{E15B4EF8-0B95-40CD-9E74-E6BB39522032}"/>
+												</Reference>
+												<Reference Name="OutputBus">
+													<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{69000F15-8803-4473-85DD-67C1CC5ACA40}"/>
+												</Reference>
+											</ReferenceList>
+											<ChildrenList>
+												<AudioFileSource Name="MG 1_Cow Steps_Weeds A1_Batch B" ID="{D9DF3145-2B1E-4C55-8B8B-326A2D4B90CB}">
+													<Language>SFX</Language>
+													<AudioFile>MG 1_Cow Steps_Weeds A1_Batch B.wav</AudioFile>
+													<MediaIDList>
+														<MediaID ID="532500078"/>
+													</MediaIDList>
+												</AudioFileSource>
+											</ChildrenList>
+											<ActiveSourceList>
+												<ActiveSource Name="MG 1_Cow Steps_Weeds A1_Batch B" ID="{D9DF3145-2B1E-4C55-8B8B-326A2D4B90CB}" Platform="Linked"/>
+											</ActiveSourceList>
+										</Sound>
+									</ChildrenList>
+								</RandomSequenceContainer>
+							</ChildrenList>
+							<GroupingInfo>
+								<GroupingBehaviorList>
+									<GroupingBehavior>
+										<ItemRef Name="Footsteps_Weeds_Grass" ID="{D2FF9728-7ACD-4F0B-97CD-30A60C7FE607}"/>
+									</GroupingBehavior>
+									<GroupingBehavior>
+										<ItemRef Name="Footsteps_Weeds" ID="{A00944CF-F7BC-44C3-9F60-5D4E4BF4272E}"/>
+									</GroupingBehavior>
+								</GroupingBehaviorList>
+								<GroupingList>
+									<Grouping>
+										<SwitchRef Name="Footsteps_Weeds" ID="{D44683DA-4D89-4B25-8C0A-FE99ADADE46A}"/>
+										<ItemList>
+											<ItemRef Name="Footsteps_Weeds_Grass" ID="{D2FF9728-7ACD-4F0B-97CD-30A60C7FE607}"/>
+										</ItemList>
+									</Grouping>
+									<Grouping>
+										<SwitchRef Name="Footsteps_Grass" ID="{5DDAD5E6-C306-42A4-B84E-17DAF154057D}"/>
+										<ItemList>
+											<ItemRef Name="Footsteps_Weeds" ID="{A00944CF-F7BC-44C3-9F60-5D4E4BF4272E}"/>
+										</ItemList>
+									</Grouping>
+								</GroupingList>
+							</GroupingInfo>
+						</SwitchContainer>
+					</ChildrenList>
+				</Folder>
+				<Folder Name="UI Sounds" ID="{848CAFEE-8327-48AC-B092-4A69A17E549E}" ShortID="106714879">
+					<ChildrenList>
+						<ActorMixer Name="Buttons" ID="{FBA24026-DCAD-4B9E-B189-9136CBFBB0AD}" ShortID="769699233">
+							<ReferenceList>
+								<Reference Name="Conversion">
+									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{E15B4EF8-0B95-40CD-9E74-E6BB39522032}"/>
+								</Reference>
+								<Reference Name="OutputBus">
+									<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{69000F15-8803-4473-85DD-67C1CC5ACA40}"/>
+								</Reference>
+							</ReferenceList>
+							<ChildrenList>
+								<Sound Name="MG 1_UI Sounds_Start Menu 1_Droplet A1_Batch A" ID="{B605F074-075F-4B87-A9C1-1F48A9A07C48}" ShortID="475805745">
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{E15B4EF8-0B95-40CD-9E74-E6BB39522032}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{69000F15-8803-4473-85DD-67C1CC5ACA40}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<AudioFileSource Name="MG 1_UI Sounds_Start Menu 1_Droplet A1_Batch A" ID="{9FA472B8-D8B0-4C0C-AB24-6B2D2AB83852}">
+											<Language>SFX</Language>
+											<AudioFile>MG 1_UI Sounds_Start Menu 1_Droplet A1_Batch A.wav</AudioFile>
+											<MediaIDList>
+												<MediaID ID="5203518"/>
+											</MediaIDList>
+										</AudioFileSource>
+									</ChildrenList>
+									<ActiveSourceList>
+										<ActiveSource Name="MG 1_UI Sounds_Start Menu 1_Droplet A1_Batch A" ID="{9FA472B8-D8B0-4C0C-AB24-6B2D2AB83852}" Platform="Linked"/>
+									</ActiveSourceList>
+								</Sound>
+								<Sound Name="MG 1_UI Sounds_Start Menu 1_Button A1_Batch A" ID="{8F19E8F0-3849-45DD-B305-E18F56E232A7}" ShortID="242245431">
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{E15B4EF8-0B95-40CD-9E74-E6BB39522032}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{69000F15-8803-4473-85DD-67C1CC5ACA40}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<AudioFileSource Name="MG 1_UI Sounds_Start Menu 1_Button A1_Batch A" ID="{897EEC96-5A73-4D8B-BC59-490EE40BDC4C}">
+											<Language>SFX</Language>
+											<AudioFile>MG 1_UI Sounds_Start Menu 1_Button A1_Batch A.wav</AudioFile>
+											<MediaIDList>
+												<MediaID ID="279443176"/>
+											</MediaIDList>
+										</AudioFileSource>
+									</ChildrenList>
+									<ActiveSourceList>
+										<ActiveSource Name="MG 1_UI Sounds_Start Menu 1_Button A1_Batch A" ID="{897EEC96-5A73-4D8B-BC59-490EE40BDC4C}" Platform="Linked"/>
+									</ActiveSourceList>
+								</Sound>
+								<Sound Name="MG 1_UI Sounds_Start Menu 1_Droplet A2_Batch A" ID="{B09078BD-B6F1-48B9-AA4D-26D01D04D846}" ShortID="428846970">
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{E15B4EF8-0B95-40CD-9E74-E6BB39522032}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{69000F15-8803-4473-85DD-67C1CC5ACA40}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<AudioFileSource Name="MG 1_UI Sounds_Start Menu 1_Droplet A2_Batch A" ID="{BE62ECEE-A927-438D-8CCB-5C8C9AB7B2B1}">
+											<Language>SFX</Language>
+											<AudioFile>MG 1_UI Sounds_Start Menu 1_Droplet A2_Batch A.wav</AudioFile>
+											<MediaIDList>
+												<MediaID ID="13632009"/>
+											</MediaIDList>
+										</AudioFileSource>
+									</ChildrenList>
+									<ActiveSourceList>
+										<ActiveSource Name="MG 1_UI Sounds_Start Menu 1_Droplet A2_Batch A" ID="{BE62ECEE-A927-438D-8CCB-5C8C9AB7B2B1}" Platform="Linked"/>
+									</ActiveSourceList>
+								</Sound>
+							</ChildrenList>
+						</ActorMixer>
+						<ActorMixer Name="Location Movement" ID="{360414DE-9F48-4794-83E2-02071CAD393C}" ShortID="357621489">
+							<ReferenceList>
+								<Reference Name="Conversion">
+									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{E15B4EF8-0B95-40CD-9E74-E6BB39522032}"/>
+								</Reference>
+								<Reference Name="OutputBus">
+									<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{69000F15-8803-4473-85DD-67C1CC5ACA40}"/>
+								</Reference>
+							</ReferenceList>
+							<ChildrenList>
+								<RandomSequenceContainer Name="Location Movement" ID="{A1B6286E-6B04-499D-B5AD-B4E53069A822}" ShortID="1508875">
+									<PropertyList>
+										<Property Name="NormalOrShuffle" Type="int16" Value="0"/>
+										<Property Name="Pitch" Type="int32">
+											<ModifierList>
+												<ModifierInfo>
+													<Modifier Name="" ID="{25EFFAF3-CE47-4B41-860B-E30DF9A7E00C}">
+														<PropertyList>
+															<Property Name="Enabled" Type="bool" Value="True"/>
+															<Property Name="Max" Type="Real64" Value="200"/>
+														</PropertyList>
+													</Modifier>
+												</ModifierInfo>
+											</ModifierList>
+										</Property>
+										<Property Name="RandomAvoidRepeatingCount" Type="int32" Value="3"/>
+									</PropertyList>
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{E15B4EF8-0B95-40CD-9E74-E6BB39522032}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{69000F15-8803-4473-85DD-67C1CC5ACA40}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<Sound Name="MG_Location Movement Selection_B3_Batch A" ID="{B1713B35-9E2C-41A6-A4D9-80811A54B337}" ShortID="439202044">
+											<ReferenceList>
+												<Reference Name="Conversion">
+													<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{E15B4EF8-0B95-40CD-9E74-E6BB39522032}"/>
+												</Reference>
+												<Reference Name="OutputBus">
+													<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{69000F15-8803-4473-85DD-67C1CC5ACA40}"/>
+												</Reference>
+											</ReferenceList>
+											<ChildrenList>
+												<AudioFileSource Name="MG_Location Movement Selection_B3_Batch A" ID="{3201A92E-ACFD-4F83-A5BB-479639F391CF}">
+													<Language>SFX</Language>
+													<AudioFile>MG_Location Movement Selection_B3_Batch A.wav</AudioFile>
+													<MediaIDList>
+														<MediaID ID="131107155"/>
+													</MediaIDList>
+												</AudioFileSource>
+											</ChildrenList>
+											<ActiveSourceList>
+												<ActiveSource Name="MG_Location Movement Selection_B3_Batch A" ID="{3201A92E-ACFD-4F83-A5BB-479639F391CF}" Platform="Linked"/>
+											</ActiveSourceList>
+										</Sound>
+										<Sound Name="MG_Location Movement Selection_B6_Batch A" ID="{FCCDE24C-7E61-4A61-BBA8-AACC9069074D}" ShortID="507060393">
+											<ReferenceList>
+												<Reference Name="Conversion">
+													<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{E15B4EF8-0B95-40CD-9E74-E6BB39522032}"/>
+												</Reference>
+												<Reference Name="OutputBus">
+													<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{69000F15-8803-4473-85DD-67C1CC5ACA40}"/>
+												</Reference>
+											</ReferenceList>
+											<ChildrenList>
+												<AudioFileSource Name="MG_Location Movement Selection_B6_Batch A" ID="{AE3ACFCC-845B-482B-A289-398957C46A70}">
+													<Language>SFX</Language>
+													<AudioFile>MG_Location Movement Selection_B6_Batch A.wav</AudioFile>
+													<MediaIDList>
+														<MediaID ID="271124721"/>
+													</MediaIDList>
+												</AudioFileSource>
+											</ChildrenList>
+											<ActiveSourceList>
+												<ActiveSource Name="MG_Location Movement Selection_B6_Batch A" ID="{AE3ACFCC-845B-482B-A289-398957C46A70}" Platform="Linked"/>
+											</ActiveSourceList>
+										</Sound>
+										<Sound Name="MG_Location Movement Selection_B2_Batch A" ID="{66D8FC12-94D3-4141-B57C-7ECA0B061FF5}" ShortID="1058599993">
+											<ReferenceList>
+												<Reference Name="Conversion">
+													<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{E15B4EF8-0B95-40CD-9E74-E6BB39522032}"/>
+												</Reference>
+												<Reference Name="OutputBus">
+													<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{69000F15-8803-4473-85DD-67C1CC5ACA40}"/>
+												</Reference>
+											</ReferenceList>
+											<ChildrenList>
+												<AudioFileSource Name="MG_Location Movement Selection_B2_Batch A" ID="{6113EF46-1049-4DF5-B73D-C724E15E5D61}">
+													<Language>SFX</Language>
+													<AudioFile>MG_Location Movement Selection_B2_Batch A.wav</AudioFile>
+													<MediaIDList>
+														<MediaID ID="711550338"/>
+													</MediaIDList>
+												</AudioFileSource>
+											</ChildrenList>
+											<ActiveSourceList>
+												<ActiveSource Name="MG_Location Movement Selection_B2_Batch A" ID="{6113EF46-1049-4DF5-B73D-C724E15E5D61}" Platform="Linked"/>
+											</ActiveSourceList>
+										</Sound>
+										<Sound Name="MG_Location Movement Selection_B4_Batch A" ID="{41A5281F-7294-438F-AE9A-60E32F9ACF63}" ShortID="35897650">
+											<ReferenceList>
+												<Reference Name="Conversion">
+													<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{E15B4EF8-0B95-40CD-9E74-E6BB39522032}"/>
+												</Reference>
+												<Reference Name="OutputBus">
+													<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{69000F15-8803-4473-85DD-67C1CC5ACA40}"/>
+												</Reference>
+											</ReferenceList>
+											<ChildrenList>
+												<AudioFileSource Name="MG_Location Movement Selection_B4_Batch A" ID="{B120479E-9247-4856-8068-754276193755}">
+													<Language>SFX</Language>
+													<AudioFile>MG_Location Movement Selection_B4_Batch A.wav</AudioFile>
+													<MediaIDList>
+														<MediaID ID="724068951"/>
+													</MediaIDList>
+												</AudioFileSource>
+											</ChildrenList>
+											<ActiveSourceList>
+												<ActiveSource Name="MG_Location Movement Selection_B4_Batch A" ID="{B120479E-9247-4856-8068-754276193755}" Platform="Linked"/>
+											</ActiveSourceList>
+										</Sound>
+										<Sound Name="MG_Location Movement Selection_B7_Batch A" ID="{7CD36B00-0B5D-4151-A888-291F45D6687E}" ShortID="219569176">
+											<ReferenceList>
+												<Reference Name="Conversion">
+													<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{E15B4EF8-0B95-40CD-9E74-E6BB39522032}"/>
+												</Reference>
+												<Reference Name="OutputBus">
+													<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{69000F15-8803-4473-85DD-67C1CC5ACA40}"/>
+												</Reference>
+											</ReferenceList>
+											<ChildrenList>
+												<AudioFileSource Name="MG_Location Movement Selection_B7_Batch A" ID="{2A89E299-3FFD-40CB-896A-DD7BF199E269}">
+													<Language>SFX</Language>
+													<AudioFile>MG_Location Movement Selection_B7_Batch A.wav</AudioFile>
+													<MediaIDList>
+														<MediaID ID="866160312"/>
+													</MediaIDList>
+												</AudioFileSource>
+											</ChildrenList>
+											<ActiveSourceList>
+												<ActiveSource Name="MG_Location Movement Selection_B7_Batch A" ID="{2A89E299-3FFD-40CB-896A-DD7BF199E269}" Platform="Linked"/>
+											</ActiveSourceList>
+										</Sound>
+										<Sound Name="MG_Location Movement Selection_B5_Batch A" ID="{735F7C59-BA7A-411F-8421-9EB7ACD7744C}" ShortID="995454843">
+											<ReferenceList>
+												<Reference Name="Conversion">
+													<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{E15B4EF8-0B95-40CD-9E74-E6BB39522032}"/>
+												</Reference>
+												<Reference Name="OutputBus">
+													<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{69000F15-8803-4473-85DD-67C1CC5ACA40}"/>
+												</Reference>
+											</ReferenceList>
+											<ChildrenList>
+												<AudioFileSource Name="MG_Location Movement Selection_B5_Batch A" ID="{E6AE0203-10BE-453F-A90D-B70F798EF954}">
+													<Language>SFX</Language>
+													<AudioFile>MG_Location Movement Selection_B5_Batch A.wav</AudioFile>
+													<MediaIDList>
+														<MediaID ID="166974260"/>
+													</MediaIDList>
+												</AudioFileSource>
+											</ChildrenList>
+											<ActiveSourceList>
+												<ActiveSource Name="MG_Location Movement Selection_B5_Batch A" ID="{E6AE0203-10BE-453F-A90D-B70F798EF954}" Platform="Linked"/>
+											</ActiveSourceList>
+										</Sound>
+										<Sound Name="MG_Location Movement Selection_B1_Batch A" ID="{36492AF2-8272-4EAD-930F-78EC6296CFE0}" ShortID="208941446">
+											<ReferenceList>
+												<Reference Name="Conversion">
+													<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{E15B4EF8-0B95-40CD-9E74-E6BB39522032}"/>
+												</Reference>
+												<Reference Name="OutputBus">
+													<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{69000F15-8803-4473-85DD-67C1CC5ACA40}"/>
+												</Reference>
+											</ReferenceList>
+											<ChildrenList>
+												<AudioFileSource Name="MG_Location Movement Selection_B1_Batch A" ID="{CDAC96E5-625C-42DB-A7CE-C0B30A4089BB}">
+													<Language>SFX</Language>
+													<AudioFile>MG_Location Movement Selection_B1_Batch A.wav</AudioFile>
+													<MediaIDList>
+														<MediaID ID="315047779"/>
+													</MediaIDList>
+												</AudioFileSource>
+											</ChildrenList>
+											<ActiveSourceList>
+												<ActiveSource Name="MG_Location Movement Selection_B1_Batch A" ID="{CDAC96E5-625C-42DB-A7CE-C0B30A4089BB}" Platform="Linked"/>
+											</ActiveSourceList>
+										</Sound>
+									</ChildrenList>
+								</RandomSequenceContainer>
+							</ChildrenList>
+						</ActorMixer>
+					</ChildrenList>
+				</Folder>
+			</ChildrenList>
+		</WorkUnit>
 	</AudioObjects>
 </WwiseDocument>

@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<WwiseDocument Type="WorkUnit" ID="{7492CEE2-BABE-4573-8B02-6D1C43285380}" SchemaVersion="97">
+	<SoundBanks>
+		<WorkUnit Name="UI_Sounds" ID="{7492CEE2-BABE-4573-8B02-6D1C43285380}" PersistMode="Standalone">
+			<ChildrenList>
+				<SoundBank Name="UI_Sounds" ID="{4DD700AD-F813-4D9A-A972-BED87EEE7195}">
+					<ObjectInclusionList>
+						<ObjectRef Name="Location_Movement" ID="{41BFC497-3DD3-438A-AAE0-6603F400279D}" WorkUnitID="{0EC041CF-147E-4D06-9741-8CCC043FD1AC}" Origin="Manual" Filter="7"/>
+						<ObjectRef Name="Button_B" ID="{C3E36265-79D7-43F6-B27E-C2A35F0E6F7A}" WorkUnitID="{0EC041CF-147E-4D06-9741-8CCC043FD1AC}" Origin="Manual" Filter="7"/>
+						<ObjectRef Name="Button_A" ID="{83CFA12F-7B2F-47CC-8687-06793D0C3B55}" WorkUnitID="{0EC041CF-147E-4D06-9741-8CCC043FD1AC}" Origin="Manual" Filter="7"/>
+						<ObjectRef Name="Button_C" ID="{0C80B7B0-7098-4CA8-B2BD-B97876A9B81B}" WorkUnitID="{0EC041CF-147E-4D06-9741-8CCC043FD1AC}" Origin="Manual" Filter="7"/>
+					</ObjectInclusionList>
+					<ObjectExclusionList/>
+					<GameSyncExclusionList/>
+				</SoundBank>
+			</ChildrenList>
+		</WorkUnit>
+	</SoundBanks>
+</WwiseDocument>
